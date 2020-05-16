@@ -4,7 +4,6 @@ wn.title("Nilesh --Turtle Clock Demo")
 wn.bgcolor("BlanchedAlmond")
 
 alex = turtle.Turtle()
-tex = turtle.Turtle()
 
 for i in range(12):
     tex = turtle.Turtle()

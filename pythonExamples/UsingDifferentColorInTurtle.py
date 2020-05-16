@@ -20,7 +20,7 @@ size = 20
 for i in range(20):
     draw_multicolor_square(alex,size)
     size = size+4
-    alex.speed(15)
+    alex.speed(5)
     alex.forward(size)
     alex.right(90)
 
