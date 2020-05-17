@@ -3,6 +3,7 @@ import scrapy
 
 class QuotesSpider(scrapy.Spider):
     name = "Quotes"
+    print("Demo")
     start_urls = [
         'http://quotes.toscrape.com/tag/humor/',
     ]
