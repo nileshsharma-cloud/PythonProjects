@@ -13,6 +13,7 @@ def h1():
     alex.forward(90)
     alex.left(100)
     alex.forward(100)
+    wn.ontimer(h1,5)
 
-wn.ontimer(h1, 4000)
+h1()
 wn.mainloop()
